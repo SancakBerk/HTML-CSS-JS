@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+
+
+}
+
+p {
+    padding: 1.6rem 0;
+
+
+}
+
+header {
+    height: 46rem;
+}
+
+header .bg-image {
+    position: absolute;
+    background-image: url(../responsivesite/İmages/avatar.png);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+header h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    border: 1px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin: 0.5rem 0;
+    transition: all 1s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #333;
+}
+
+#sectionid {
+    background-color: #eaeaea;
+    color: #333;
+    padding: 3.2rem 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#sectionbid {
+    padding: 2.3rem;
+}
+
+#sectionbid ul {
+    list-style: none;
+}
+
+#sectionbid li {
+    background-color: white;
+    color: #333;
+
+}
+
+.firstdiv {
+    background-color: green;
+    color: #333;
+    padding: 1.6rem;
+    font-size: 20px;
+    margin: 1.6rem;
+
+
+
+}
+
+.seconddiv {
+    background-color: aqua;
+    color: #333;
+    padding: 1.6rem;
+    font-size: 20px;
+    margin: 1.6rem;
+
+}
+
+.thirthdiv {
+    background-color: orange;
+    color: #333;
+    padding: 1.6rem;
+    font-size: 20px;
+    margin: 1.6rem;
+}
+
+.Lastinfo {
+    background: black;
+    padding: 3rem 4rem;
+    margin: 1.6rem;
+
+}
+
+.Lastinfo a {
+    color: #333;
+    background-color: aqua;
+
+}
+
+.Lastinfo a:hover {
+    color: aqua;
+    background-color: black;
+    transition: all 1.5s;
+}
+
+i {
+    margin-top: 25px;
+    font-size: 50px;
+}
+
+@media screen and (min-width:800px)
+{
+    html
+    {
+        font-size: 10px;
+    }
+
+}
+@media screen and (min-width:1200px)
+{
+    html
+    {
+        font-size: 12px;
+    }
+    #sectionbid li
+    {
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+
+    }
+    #section3infos div
+    {
+        display:inline-block;
+        width: 28%;
+        margin: 1%;
+
+    }
+
+
+}
