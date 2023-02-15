@@ -1,0 +1,130 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    background-color: gray;
+    width: 100%;
+    height: 1500px;
+    background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+
+}
+.menu
+{
+    width: auto;
+    height: 80px;
+    padding: 10px;
+}
+.welcomeimg
+{
+    margin-left: 200px;
+    display: block;
+    float: left;
+
+}
+.buttons
+{
+    width: 150px;
+    height: 80%;
+    background-color: gray;
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    float: right;
+    border-radius: 10%;
+    text-align:center;
+}
+button
+{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    font-size: large;
+    font-weight: 400;
+    border-radius: 10%;
+}
+.buttons:hover
+{
+    background-color: aliceblue;
+}
+button:hover
+{
+    background-color: gray;
+    color: white;
+}
+hr
+{
+    color: white;
+    border-style:dashed;
+}
+.infocontainer
+{
+    height:500px;
+    width: auto;
+    
+}
+.imgdiv
+{
+    margin: 100px;
+    display: block;
+    float: left;
+    
+}
+.info
+{
+    width: auto;
+    height: 200px;
+    margin: 150px;
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+}
+.allimages
+{
+    height: 400px;
+    width: 100%;
+}
+.images
+{
+    width: 30%;
+    height: auto;
+    display: block;
+    float: left;
+    margin: 1.5%;
+}
+a img:hover
+{
+    background-color: aquamarine;
+    
+}
+img{
+    border-radius: 10%; 
+}
+.images img
+{
+    width: 100%;
+    display: inline-block;
+}
+.images img:hover
+{
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+#photoinfo
+{
+    text-align: center;
+    font-size: large;
+    color: blue;
+}
+ #contactme
+ {
+    width: auto;
+    height: 100px;
+    background-color:rgba(127, 255, 212, 0.4);
+    font-size: 25px;
+    text-align: center;
+ }
+

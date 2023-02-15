@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <audio id="voice">
+            <source src="furievox-105000.mp3">
+        </audio>
+        <!-- menu -->
+        <div class="menu">
+            <div class="welcomeimg">
+                <a href=""><img src="images.jpg" alt="" height="80px" id="voiceimg"></a>
+            </div>
+
+            <div class="buttons">
+                <a href="#contactme">
+                    <button class="buton">
+                        Contact Me <i class="fa-solid fa-phone"></i>
+                    </button>
+                </a>
+            </div>
+            <div class="buttons">
+                <a href="#photoinfo">
+                    <button class="buton">
+                        My Works <i class="fa-solid fa-ghost"></i>
+                    </button>
+                </a>
+            </div>
+            <div class="buttons">
+                <a href="#infop">
+                    <button class="buton">
+                        Profile <i class="fa-regular fa-user"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <!-- info container -->
+
+
+
+
+
+
+        <div class="infocontainer">
+            <div class="imgdiv" id="imgdivid">
+                <img src="250585258_591834552131861_7220091612737608252_n.jpg" alt="" width="250px">
+            </div>
+            <div class="info" id="infop">
+                <br><br><br><br>
+                <br><br><br><br>
+
+                <hr>
+                <hr>
+
+                Hi I am Berk <i class="fa-regular fa-face-smile"></i> <br>
+                I study computer engineering at Eskişehir Osmangazi University <br>
+                Actually we learn c , c++ in university but I interested in Web developement and wanna improve myself
+                about this way
+
+                <hr>
+                <hr>
+            </div>
+        </div>
+        <hr>
+        <p id="photoinfo">Click my photos for my other projects</p>
+        <br>
+        <br>
+        <div class="allimages">
+            <div class="images">
+                <a href="https://github.com/SancakBerk/Works/tree/main/responsivesite"><img
+                        src="250585258_591834552131861_7220091612737608252_n.jpg" alt="">
+                </a>
+            </div>
+            <div class="images">
+                <a href="https://github.com/SancakBerk/Works/tree/main/uygulama"><img
+                        src="250585258_591834552131861_7220091612737608252_n.jpg" alt=""></a>
+            </div>
+            <div class="images">
+                <a href="https://github.com/SancakBerk/Works/tree/main/To%20do"><img
+                        src="250585258_591834552131861_7220091612737608252_n.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <div id="contactme">
+            <p>+90 551 606 04 74</p>
+            <p> berksancak6161@gmail.com</p>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="js.js">
+
+
+
+        var image = document.getElementsByClassName("buton");
+        console.log(image);
+        image.addEventListener("click", playmusic);
+        function playmusic(image) 
+        {
+            console.log(image)
+            let audio = new Audio("furievox-105000.mp3");
+            audio.play();
+
+        }
+
+
+
+    </script>
+
+</body>
+
+
+</html>
