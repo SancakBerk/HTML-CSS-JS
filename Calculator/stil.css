@@ -1,0 +1,43 @@
+body
+{
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+
+}
+.calculator
+{
+    width: 300px;
+    height: 450px;
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    border-radius: 5%;
+}
+.calculator input
+{
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    border: 4px solid white;
+    background-color: black;
+    color: white;
+}
+.btn
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    margin: 10px;
+    border-color: black;
+}
+.btns
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    margin: 10px;
+    border-color: black;
+}
