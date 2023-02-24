@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="searchdiv">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" class="searchbar" placeholder="Search" id="searchitem" onkeyup="search()">
+        </div>
+        <div class="addnewitem">
+            <h3>Add New İtem</h3>
+            <input type="text" class="name" placeholder="Name" id="namee">
+            <input type="text" class="price" placeholder="Price" id="pricee">
+            <input type="text" class="link" placeholder="İmage Link" id="linkkk">
+            <button class="addnewitembutton"><i class="fa-solid fa-check"></i></button>
+        </div>
+        <ul class="items">
+            <li class="item">
+                <img src="https://statics.boyner.com.tr/mnresize/325/451/productimages/5002886917_602_01.jpg"
+                    alt="">
+                <div class="info">
+                    <h2>T-Shirt <br>25$</h2>
+                </div>
+            </li>
+            <li class="item">
+                <img src="https://cdn.thewirecutter.com/wp-content/media/2022/06/summer-shorts-2048px-5026.jpg?auto=webp&quality=75&width=1024"
+                    alt="">
+                <div class="info">
+                    <h2>Short <br>25$</h2>
+                </div>
+            </li>
+            <li class="item">
+                <img src="https://static.ticimax.cloud/13728/uploads/urunresimleri/cameron-beyaz-krokodil-sneaker-spor-mio--5cd3.jpg"
+                    alt="">
+                <div class="info">
+                    <h2>Sneakers <br>25$</h2>
+                </div>
+            </li>
+            <li class="item">
+                <img src="https://media.glamour.com/photos/5f57e9459474640df80c9285/master/w_1000,h_1286,c_limit/dickies.jpg"
+                    alt="">
+                <div class="info">
+                    <h2>Pants <br>25$</h2>
+                </div>
+            </li>
+            <li class="item">
+                <img src="https://media.glamourmagazine.co.uk/photos/62a06c0b90822da26007e53e/16:9/w_2580,c_limit/SUN%20HATS%20080622%20MAIN.jpg"
+                    alt="">
+                <div class="info">
+                    <h2>Hat <br>25$</h2>
+                </div>
+            </li>
+            <li class="item">
+                <img src="https://cdn.tommylife.com.tr/p-mint-yesili-baskili-yazi-nakisli-o-yaka-erkek-oversize-t-shirt-88105-t-shirt-tommylife-t12er-88105-165488-31-O.jpg"
+                    alt="">
+                <div class="info">
+                    <h2>T-Shirt <br>25$</h2>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <script src="JS.js"></script>
+
+</body>
+
+</html>
