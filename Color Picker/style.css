@@ -1,0 +1,88 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box
+{
+    width: 20vw;
+    height: 7vw;
+    background-color: rgb(211, 224, 233);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:0.1vw solid darkblue;
+    border-radius: 1vw;
+}
+.box .btn
+{
+    width: 7vw;
+    height: 4vw;
+    border-radius: 1vw;
+}
+.colorinfos
+{
+    width: 20vw;
+    height: 7vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+li
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    font-size: large;
+    font-weight: 700;
+    margin: 0.5vw;
+    cursor: pointer;
+}
+.libutton
+{
+    width: 1.2vw;
+    height: 1.2vw;
+    border: none;
+    border-radius: 1vw;
+}
+nav
+{
+    width: 18vw;
+    height: auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+nav p
+{
+    font-size: large;
+    margin:0px;
+    
+}
+nav button
+{
+    background-color: white;
+    border: none;
+    color: blue;
+    width: 5vw;
+    height: 1vw;
+}
+button:hover
+{
+    background-color: unset;
+    
+}
