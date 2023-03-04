@@ -1,0 +1,11 @@
+const newli = document.createElement("li");
+    console.log(id)
+    newli.className = (`${id}`);
+    newli.innerHTML = `<div class="${id}div">
+    <div class="idiv">
+        <i class="fa-solid fa-check"></i>
+    </div>
+    <h3>${id}: This is a ${id} box</h3>
+    </div>
+    <i class="fa-solid fa-x"></i>`
+    ul.appendChild(newli);

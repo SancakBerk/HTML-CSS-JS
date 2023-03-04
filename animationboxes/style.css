@@ -1,0 +1,229 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+}
+:root
+{
+    --dark:  rgb(61, 79, 94);
+    --success:rgb(24, 180, 60);
+    --error:rgb(209, 82, 82);
+    --info:rgb(60, 145, 198);
+    --warning:rgb(216, 178, 33);
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(61, 79, 94);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.boxes
+{
+    position:fixed;
+    top: 2vw;
+    right:2vw;
+    width: auto;
+    height: auto;
+    
+}
+li
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 1vw;
+    margin: 1vw;
+    font-size: large;
+    width: 25vw;
+    height: 4vw;
+    background-color:white;
+    border-radius: 0.5vw;
+    position: relative;
+    overflow: hidden;
+    animation: lianim 0.5s linear forwards ;
+
+
+}
+@keyframes lianim 
+{
+    from
+    {
+        width: 0px;
+
+    }
+    to
+    {
+        width: 25vw;
+    }
+}
+
+
+
+
+.infodiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.idiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+}
+.fa-x
+{
+    color: #bebed5;
+    padding-right: 1.5vw;
+    cursor: pointer;
+}
+.btn
+{
+    width: 6vw;
+    height: 4vw;
+    border-radius: 0.5vw;
+    border: none;
+    cursor: pointer;
+    margin: 0.3vw;
+
+}
+.btn:hover
+{
+    animation: turn 1s ease ;
+}
+@keyframes turn
+{
+    0%
+    {
+    }
+    100%
+    {
+        background-color: purple;
+    }
+}
+
+li::before
+{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    animation: progress 5s alternate forwards;
+}
+
+.delanimation
+{
+    animation: delanimation 2s linear ;
+}
+
+
+@keyframes delanimation 
+{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+    
+}
+
+
+
+@keyframes progress
+{
+    100%
+    {
+        width: 0%;
+    }
+
+}
+
+
+
+li.success::before
+{
+    background-color: var(--success);
+}
+li.error::before
+{
+    background-color: var(--error);
+}
+li.warning::before
+{
+    background-color: var(--warning);
+}
+li.info::before
+{
+    background-color: var(--info);
+}
+
+
+
+
+
+
+
+.btn_success,.success .idiv
+{
+    background-color: var(--success);
+}
+.btn_error,.error .idiv
+{
+    background-color: var(--error);
+}
+.btn_warning,.warning .idiv
+{
+    background-color: var(--warning);    
+}
+.btn_info,.info .idiv
+{
+    background-color: var(--info);
+}
+
+
+
+.boxes.success::before
+{
+    background: var(--success);
+}
+
+
+
+
+.success i:first-child
+{
+    background-color: var(--success);
+}
+.error i:first-child
+{
+    background-color: var(--error);
+} 
+.warning i:first-child
+{
+    background-color: var(--warning);
+} 
+.info i:first-child
+{
+    background-color: var(--info);
+} 
+
+
