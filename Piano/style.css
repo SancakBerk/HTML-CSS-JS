@@ -1,0 +1,129 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #d3e0e9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box
+{
+    width: 60vw;
+    height: 30vw;
+    border-radius: 1vw;
+    background-color: #212121;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+    height: 10vw;
+    font-size: 1vw;
+}
+.volumerange
+{
+    color: #212121;
+    accent-color:black;
+}
+.check
+{
+    appearance: none;
+    width: 2.8vw;
+    height: 1.5vw;
+    background-color: #505050;
+    border-radius: 1vw;
+    position: relative;
+
+}
+.check::before
+{
+    content: "";
+    width: 1.2vw;
+    height: 1.2vw;
+    background-color: #212121;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.1vw;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 1s;
+
+}
+.check:checked::before
+{
+    left: 1.4vw;
+    background-color: white;
+}
+
+.allpieces
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60vw;
+    height: 15vw;
+}
+.blackpiece
+{
+    width: 3vw;
+    height: 7.5vw;
+    background-color:#212121;
+    margin: 0 -1.5vw 0 -1.5vw;
+    z-index: 2;
+    border-radius: 0.3vw;
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.blackpiece:active
+{
+    background-color: #505050;
+}
+.whitepiece:active
+{
+    background-color: #989898   ;
+}
+.whitepiece
+{
+    width:4vw;
+    height: 15vw;
+    color:#989898;
+    background-color: white;
+    border-radius: 0.3vw;
+    margin: 0.1vw;
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.allpieces p
+{
+    padding-bottom: 1vw;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+p:start
+{
+    transition: 2s;
+}
+.activate
+{
+    box-shadow: 10vw 10vw 20vw black;
+    opacity: 0.6;
+}
